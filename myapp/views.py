@@ -57,7 +57,6 @@ def home_page(request):
         'list': list,
         'permissions': permissions,
     }
-    print(permissions)
     return render(request, 'myapp/home.html', context)
 
 @login_required
